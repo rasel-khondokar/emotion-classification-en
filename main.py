@@ -9,7 +9,7 @@ DIR_RESOURCES = 'RESOURCES'
 
 dataset = pd.read_csv('DATASET/emotion_dataset_2-1.csv')
 dataset.dropna(inplace=True, axis=0)
-dataset = dataset.sample(100)
+# dataset = dataset.sample(100)
 english_preprocessor = EnglishPreprocessor()
 dataset['Text'] = english_preprocessor.preprocess(dataset['Text'])
 
