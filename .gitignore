@@ -1,0 +1,11 @@
+DATASET/
+RESOURCES/
+MODEL/
+REPORT/
+__pycache__/
+venv/
+.idea/
+*.pyc
+*.pkl
+*.pickle
+test.py
